@@ -1,2 +1,2 @@
-# Baxter
-Baxter robot playes checker game with human
+# Baxter plays checker
+Baxter robot plays checker game with human
