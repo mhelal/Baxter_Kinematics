@@ -1,4 +1,4 @@
-# Not complete In progress ( should be updated everyday)
+# Not complete, still in progress ( should be updated everyday)
 # INTRODUCTION
 Hi everyone, my name is Quang Nam Phi. I graduated Computer Science (AI) at UH 2023. Hopefully this project assists you in achiving hight marks AI robotic and applications module.
 
