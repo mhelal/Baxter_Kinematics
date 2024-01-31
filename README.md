@@ -47,3 +47,13 @@ _`rosrun baxter_checker main.py`_
 # Baxter plays checker
 Baxter robot plays checker game with human
 # Kinematic Inverse and forward
+WHY USING Kinematic algorthm?
+
+Kinematic is the foundational block for designing and controlling robotics, allowing engineers and researchers to predict the motion of a robot's limbs and body without needing to consider the forces and moments causing the motion. This is crucial for planning and executing precise movements, especilly in applications requiting high levels of accuracy and efficiency. 
+
+In robotics, kinematics is divided into two main categories: FORWARD KINEMATICS and INVERSE KINEMATICS
+
+FORWARD: it is about determining the position and orientation of the robot's end effector given its joint parameters.
+INVERSE KINEMATICS: it involves calculating the joint paramters that are needed to place the end effector at desired position and orientation.
+
+
