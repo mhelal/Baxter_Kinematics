@@ -59,7 +59,7 @@ INVERSE KINEMATICS: it involves calculating the joint paramters that are needed 
 
 Now doing some examples to understand more about Kinematics
 
-<img src="https://github.com/Kun10x/Baxter/blob/main/images/Baxters-joints-Rethink-Robotics-also-provides-Joint-Velocity-Wobbler-Example-where.png" width="500">" width="500">
+<img src="https://github.com/Kun10x/Baxter/blob/main/images/Baxters-joints-Rethink-Robotics-also-provides-Joint-Velocity-Wobbler-Example-where.png" width="500">
 
 
 
