@@ -54,6 +54,12 @@ Kinematic is the foundational block for designing and controlling robotics, allo
 In robotics, kinematics is divided into two main categories: FORWARD KINEMATICS and INVERSE KINEMATICS
 
 FORWARD: it is about determining the position and orientation of the robot's end effector given its joint parameters.
+
 INVERSE KINEMATICS: it involves calculating the joint paramters that are needed to place the end effector at desired position and orientation.
+
+Now doing some examples to understand more about Kinematics
+
+<img src="<img src="https://github.com/Kun10x/Baxter/blob/main/images/495f5bde30849adac395.jpg" width="500">" width="500">
+
 
 
