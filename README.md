@@ -189,7 +189,6 @@ print(T07)
 
 
 
-<img src="https://github.com/Kun10x/Baxter/blob/main/images/Baxters-joints-Rethink-Robotics-also-provides-Joint-Velocity-Wobbler-Example-where.png" width="500">
 
 
 
