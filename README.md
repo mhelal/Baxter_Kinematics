@@ -103,5 +103,110 @@ This is interesting videos to know how to create draughts game play and minimax 
 
 <img src="https://github.com/Kun10x/Baxter_Kinematics/blob/main/images/Screenshot%202023-05-07%20232910.png" width="600">
 
-# 6. References
+# 6. Create Word Space (WS)
+
+**Initialise and Configure your ROS workspace:**
+Assuming your working ROS directory is called my_ros_ws (you can actually call it anything you
+want), type the following shell commands to set up and configure your workspace so it is integrated
+into the ROS system:
+
+_`cd my_ros_ws`_  (i.e. to the ROS working directory you have just created)
+
+_`mkdir src`_ (create a src subdirectory my_ros_ws/src. Note: If you plan to replace or modify an existing ROS package, use: wstool init src instead )
+
+_`cd src`_ (change the working directory to the src sub directory) 
+
+_`catkin_init_workspace`_ (Tell the ROS system to look in my_ros_ws/src for executable files)
+
+_`cd ..`_ (change up to the workspace directory, my_ros_ws)
+
+_`catkin_make`_ (Create various configuration files, also builds any C, C++ progs etc)
+
+If these commands are successful, you will find that two new directories have appeared in the
+my_ros_ws directory, `my_ros_ws/build` and `my_ros_ws/devel` . The final step to setup
+your working directory is to type the command:
+
+`source ./devel/setup.sh` (if the CWD is `my_ros_ws/`)
+
+If you want to use your workspace for several programs, it is recommended to create a seperate 'package' directory for each program. Do this by changing to the my_ros_ws/src directory:
+
+`cd src`
+
+`catkin_create_pkg my_test_package std_msgs rospy baxter_interface`
+
+(Note: You may need to add other ROS dependencies and possibly the ROS distribution version for
+your package if it depends upon other ROS packages). Then:
+
+`cd ..` (Change back up to: my_ros_ws directory)
+
+`catkin_make` (to make sure that your new package is integrated into ROS)
+
+From now on, after mounting your remote storage directory (as shown above) to initialise your
+workspace into the ROS system, you simply need to:
+
+`cd my_ros_ws` (or if using a USB drive: `cd /media/NNN-NNNN/my_ros_ws`)
+
+`source ./devel/setup.sh`
+
+You are now ready to create your first Baxter program!
+
+**First Baxter Python Program**
+
+To test your workspace, create the following Python program (rosHello.py) using your favourite text editor (emacs, Geany, Gedit etc.), and save it in the `my_ros_ws/src/test_package/src` directory of your new ROS workspace:
+
+```python
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+'''
+rosHello.py
+A test program for ROS to make sure that your workspace has been
+intialised properly
+M.L.Walters, Jan 1015, V1
+Note, must be run from the ros_ws directory, using:
+rosrun <packageName> <programName>
+E.g.
+rosrun my_test_package rosHello.py
+'''
+# ROS can only use Python2, but to use Python 3 syntax, include:
+from __future__ import print_function, division
+input = raw_input
+# Following lines will only work on E300 PCs with ROS and Baxter
+# SDK installed
+import rospy
+import baxter_interface
+def main():
+ print("hello world")
+ a = input("Press ENTER to continue")
+ return 0
+if __name__ == '__main__':
+ main()
+```
+
+When you save your program, you should make it directly executable by typing (from your
+`my_ros_ws` directory):
+
+`chmod +x src/my_test_package/src/<programName>.py`
+
+`catkin_make`  (to rebuild all executables and paths, config files etc. Usually not necessary for Python programs, but esssential for C, C++ etc.)
+
+To run your program, then type:
+
+`rosrun my_test_package <programName>`
+
+Where `<programName>` is the name of your Python program file, including the .py extension.
+
+Notes: It is important that you type this program in yourself. The indentation is important both to aid
+code readability and also Python uses indents to delimit program blocks (see Lecture notes). The
+lines beginning with # or ''' are comments. Always put the program title, author, version and date as
+comments at the beginning of any program you write. This will help you to keep track of different
+versions and modifications of you program. You can also include any other notes as necessary to aid
+readers of your program (including yourself after coming back to it after several months!). Also
+include the line “#!/usr/bin/python2” as the first line of your program so that it can be run
+automatically under Linux. When you run the program, you may well find that there is a syntax or
+other error. Try to find where the error is yourself by reading through the program step by step, and
+understanding what the program is doing. 
+
+
+
+# 7. References
 
