@@ -35,17 +35,6 @@ _`source ./devel/setup.sh`_
 _`rosrun baxter_checker main.py`_
 
 
-
-
-
-
-
-
-
-
-
-# Baxter plays checker
-Baxter robot plays checker game with human
 # Kinematic Inverse and forward
 WHY USING Kinematic algorthm?
 
@@ -57,7 +46,7 @@ In robotics, kinematics is divided into two main categories: FORWARD KINEMATICS 
 
 FORWARD: it is about determining the position and orientation of the robot's end effector given its joint parameters.
 
-**Inverse kinematic![IK](https://github.com/Kun10x/Baxter_Kinematics/blob/main/Kinematics/READ_ME.md#inverse-kinematic)**
+**Inverse kinematic![IPK](https://github.com/Kun10x/Baxter_Kinematics/blob/main/Kinematics/READ_ME.md#inverse-kinematic)**
 
 INVERSE KINEMATICS: it involves calculating the joint paramters that are needed to place the end effector at desired position and orientation.
 
