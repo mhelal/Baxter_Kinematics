@@ -103,3 +103,5 @@ This is interesting videos to know how to create draughts game play and minimax 
 
 <img src="https://github.com/Kun10x/Baxter_Kinematics/blob/main/images/Screenshot%202023-05-07%20232910.png" width="600">
 
+# 6. Reference
+
