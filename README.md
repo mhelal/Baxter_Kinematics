@@ -93,6 +93,10 @@ This is interesting videos to know how to create draughts game play and minimax 
   <img src="https://github.com/Kun10x/Baxter_Kinematics/blob/main/images/tim_part2.png" width="600">
 </a>
 
+**Whole checker_gameplay**
+
+![whole code checker_gameplay](https://github.com/Kun10x/Baxter_Kinematics/tree/main/Checkers-AI-gameplay)
+
 
 
 
