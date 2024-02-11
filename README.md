@@ -19,8 +19,11 @@ These are three seperate parts provided:
 # QUICK RUNNING 
 IMPORTANT REQUIRE:
 **- Running in E300 LAB at UH**
+
 **- Baxter1 (it should be the first baxter robot when you entry the lab)**
+
 **- Please check the ground to ensure that the table is positioned correctly according to the markings I've made**
+
  <img src="https://github.com/Kun10x/Baxter/blob/main/images/495f5bde30849adac395.jpg" width="500">
 Start PC and the Baxter robot by pressing power button on the body behind the left arm.
 When the green head stripe light is stable, open terminal window on PC and type:
