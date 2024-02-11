@@ -10,15 +10,15 @@ Generally, the Forward Kinematics (FPK) is given by the joint values (theta valu
 
 **Where** : {G} is the left-arm end-effector(gripper) frame and {W} is the World fixed reference frame on the floor.
 
-For example, I set all $`\theta`$ in forward_kinematic.py are 0.
+
 **First**
-I import 'numpy' library
+I import 'numpy' library for this program
 ```python
 import numpy as np
 ```
+_`pip install numpy`_ for window or _`pip3 install numpy`_ for macos
 
-**Kinematic code (1)**
-
+**Then (1)**
 
 ```python
 # Link lengths
