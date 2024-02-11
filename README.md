@@ -4,10 +4,23 @@ Hi everyone, my name is Quang Nam Phi. I graduated Computer Science (AI) at UH 2
 
 ABOUT THIS PROJECT: the project integrate a computer vision system, a robotic manipulation system, and a game algorithm to enable the Baxter robot plays draughts with human. Based on The YOLOv8 object detection model. the computer vision system was trained to accurately detect the chess board and game piecess in real-time. The robot manipulation system employed forward and inverse kinematics to control Baxter's arm movements, allowing precise and efficient interactions with the board and pieces. The game algorithm utilized the minimax algorithm to enable strategic decision-making during gameplay.
 
+# IMPORTANT
+
+These are three seperate parts provided:
+
+**1. Kinematics (Robotic Manipulation)**
+
+**2. Checkers (draughts) with AI algorithm (MinMax) - Implementation & Visualization**
+
+**3. Computer vision**
+
+**I successfully integrated (1) Kinematics and (2) a Checkers game that utilizes the MinMax algorithm in my project last year. Although I developed a (3) computer vision component, I did not incorporate it because Yolov8 necessitates Python version 3.11**
+
 # QUICK RUNNING 
 IMPORTANT REQUIRE:
-- Running in E300 LAB at UH
-- Baxter1 (it should be the first baxter robot when you entry the lab)
+**- Running in E300 LAB at UH**
+**- Baxter1 (it should be the first baxter robot when you entry the lab)**
+**- Please check the ground to ensure that the table is positioned correctly according to the markings I've made**
  <img src="https://github.com/Kun10x/Baxter/blob/main/images/495f5bde30849adac395.jpg" width="500">
 Start PC and the Baxter robot by pressing power button on the body behind the left arm.
 When the green head stripe light is stable, open terminal window on PC and type:
