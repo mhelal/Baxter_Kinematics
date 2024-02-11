@@ -1,5 +1,5 @@
 
-# INTRODUCTION
+# 1. INTRODUCTION
 Hi everyone, my name is Quang Nam Phi. I graduated Computer Science (AI) at UH 2023. Hopefully this project assists you in achiving AI robotic and applications module.
 
 ABOUT THIS PROJECT: the project integrate a computer vision system, a robotic manipulation system, and a game algorithm to enable the Baxter robot plays draughts with human. Based on The YOLOv8 object detection model. the computer vision system was trained to accurately detect the chess board and game piecess in real-time. The robot manipulation system employed forward and inverse kinematics to control Baxter's arm movements, allowing precise and efficient interactions with the board and pieces. The game algorithm utilized the minimax algorithm to enable strategic decision-making during gameplay.
@@ -16,7 +16,7 @@ These are three seperate parts provided:
 
 **I integrated (1) Kinematics and (2) a Checkers game that utilizes the MinMax algorithm in my project last year. Although I developed a (3) computer vision component, I did not incorporate it because Yolov8 necessitates Python version 3.11**
 
-# QUICK RUNNING 
+# 2. QUICK RUNNING 
 IMPORTANT REQUIRE:
 
 **- Running in E300 LAB at UH**
@@ -52,7 +52,7 @@ _`source ./devel/setup.sh`_
 _`rosrun baxter_checker main.py`_
 
 
-# Kinematics Forward and Inverse
+# 3. Kinematics Forward and Inverse
 WHY USING Kinematic algorthm?
 
 Kinematic is the foundational block for designing and controlling robotics, allowing engineers and researchers to predict the motion of a robot's limbs and body without needing to consider the forces and moments causing the motion. This is crucial for planning and executing precise movements, especilly in applications requiting high levels of accuracy and efficiency. 
@@ -67,7 +67,7 @@ FORWARD: it is about determining the position and orientation of the robot's end
 
 INVERSE KINEMATICS: it involves calculating the joint paramters that are needed to place the end effector at desired position and orientation.
 
-# Checkers (draughts) with AI algorithm (MinMax)
+# 4. Checkers (draughts) with AI algorithm (MinMax)
 
 The minimax algorithm is the decision-making strategy for Baxter during gameplay. This algorithm allowed Baxter to search the game tree and select the optimal move based on the current board state
 
@@ -97,7 +97,7 @@ This is interesting videos to know how to create draughts game play and minimax 
 
 ![whole code checker_gameplay](https://github.com/Kun10x/Baxter_Kinematics/tree/main/Checkers-AI-gameplay)
 
-
+# 5. Computer vision (Update soon!!!!!!)
 
 
 
