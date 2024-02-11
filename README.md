@@ -18,6 +18,7 @@ These are three seperate parts provided:
 
 # QUICK RUNNING 
 IMPORTANT REQUIRE:
+
 **- Running in E300 LAB at UH**
 
 **- Baxter1 (it should be the first baxter robot when you entry the lab)**
