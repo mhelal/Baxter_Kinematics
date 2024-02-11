@@ -1,11 +1,17 @@
 # Contents
 
 [1. INTRODUCTION](https://github.com/Kun10x/Baxter_Kinematics?tab=readme-ov-file#1-introduction)
+
 [2. QUICK_RUNNING](https://github.com/Kun10x/Baxter_Kinematics?tab=readme-ov-file#2-quick-running)
+
 [3. Kinematics Forward and Inverse](https://github.com/Kun10x/Baxter_Kinematics?tab=readme-ov-file#3-kinematics-forward-and-inverse)
+
 [4. Checkers (draughts) with AI algorithm (MinMax)](https://github.com/Kun10x/Baxter_Kinematics?tab=readme-ov-file#4-checkers-draughts-with-ai-algorithm-minmax)
+
 [5. Computer vision](https://github.com/Kun10x/Baxter_Kinematics?tab=readme-ov-file#5-computer-vision-update-soon)
+
 [6. Create Word Space (WS)](https://github.com/Kun10x/Baxter_Kinematics?tab=readme-ov-file#6-create-word-space-ws)
+
 [7. REFERENCES](https://github.com/Kun10x/Baxter_Kinematics?tab=readme-ov-file#7-references)
 
 
