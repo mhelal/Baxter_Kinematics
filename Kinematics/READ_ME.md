@@ -128,7 +128,7 @@ print(T07)
 
 ![whole code](https://github.com/Kun10x/Baxter_Kinematics/blob/main/Kinematics/forward_kinematic.py)
 
-
+# Inverse Kinematic
 
 
 
