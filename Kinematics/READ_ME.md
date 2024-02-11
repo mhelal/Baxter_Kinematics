@@ -124,9 +124,9 @@ print('matrix:')
 print(T07)
 ```
 
-**Whole code**
+**Whole code for forward kinematics**
 
-![whole code](https://github.com/Kun10x/Baxter_Kinematics/blob/main/Kinematics/forward_kinematic.py)
+![whole code FPK](https://github.com/Kun10x/Baxter_Kinematics/blob/main/Kinematics/forward_kinematic.py)
 
 # Inverse Kinematic
 
@@ -269,8 +269,9 @@ if __name__ == '__main__':
     print(forward_kinematics(theta))
 ```
 
+**Whole code for inverse kinematics** 
 
-
+![whole code IPK](https://github.com/Kun10x/Baxter_Kinematics/blob/main/Kinematics/inverse_kinematic.py)
 
 
 
