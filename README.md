@@ -57,7 +57,8 @@ FORWARD: it is about determining the position and orientation of the robot's end
 
 INVERSE KINEMATICS: it involves calculating the joint paramters that are needed to place the end effector at desired position and orientation.
 
-Now doing some examples to understand more about Kinematics
+Detail explaination about Kinematic in 'Kinematic founder'
+
 
 <img src="https://github.com/Kun10x/Baxter/blob/main/images/Baxters-joints-Rethink-Robotics-also-provides-Joint-Velocity-Wobbler-Example-where.png" width="500">
 
