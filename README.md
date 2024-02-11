@@ -99,5 +99,7 @@ This is interesting videos to know how to create draughts game play and minimax 
 
 # 5. Computer vision (Update soon!!!!!!)
 
+<img src="https://github.com/Kun10x/Baxter_Kinematics/blob/main/images/Screenshot%202023-05-01%20003802.png" width="600">
 
+<img src="https://github.com/Kun10x/Baxter_Kinematics/blob/main/images/Screenshot%202023-05-07%20232910.png" width="600">
 
